@@ -351,6 +351,10 @@ class HtmlParser {
       case 'u':
         textDecoration = TextDecoration.underline;
         break;
+        
+      case 'strike':
+        textDecoration = TextDecoration.lineThrough;
+        break;
     }
 
     if (style != null) {
